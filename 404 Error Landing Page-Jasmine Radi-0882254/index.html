@@ -1,0 +1,53 @@
+<!--Name: Jasmine Radi Date: March 7, 2025 Class: CSCI 162 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Error 404 Page | CSCI 162 Chapter 4</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+      <div class="stars">
+        <!-- Add stars with different positions and sizes -->
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+    </div>
+
+    <div class="alien-container">
+        <!-- First animation: fadeInDown to show -->
+        <div class="animate__animated animate__fadeInDown animate__slower" id="alien">
+          <img src="alien.png" alt="Alien" width="200">
+        </div>
+    </div>
+
+    <div class="beamedup">
+        <h1 class="animate__animated animate__fadeOutUp animate__delay-1s animate__slower">404 - Page Not Found</h1>
+    </div>
+
+    <div>
+        <p>Error 404? Well, this is awkward. The page that was supposed to be here...is not here.</p>
+    </div>
+
+    <script>
+        // Wait for the fadeInDown animation to complete before applying backOutUp
+        window.onload = function() {
+            setTimeout(function() {
+                const alien = document.getElementById('alien');
+                // Remove the previous animation class before adding the new one
+                alien.classList.remove('animate__fadeInDown');
+                alien.classList.add('animate__backOutUp'); // Trigger backOutUp after the initial fadeInDown
+            }, 4000); // Adjust this delay based on how long the first animation should last
+        };
+    </script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* Name: Jasmine Radi Date: March 7, 2025 Class: CSCI 162 */
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+  }
+/* Background Styles*/
+/* Background Color*/
+body {
+    width:100%;
+    height: auto;
+    background-color: black;
+}
+
+/* Stars background */
+.stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+/* Individual Stars*/
+.star {
+    position: absolute;
+    background-color: white;
+    border-radius: 50%;
+    animation: blink 2s infinite alternate; /* Blinking animation */
+}
+
+/* Keyframes for blinking animation */
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Randomize the position, size, and animation delay of stars */
+.star:nth-child(1) { width: 2px; height: 2px; top: 10%; left: 15%; animation-duration: 1s; }
+.star:nth-child(2) { width: 3px; height: 3px; top: 20%; left: 35%; animation-duration: 3s; }
+.star:nth-child(3) { width: 1px; height: 1px; top: 50%; left: 70%; animation-duration: 2.5s; }
+.star:nth-child(4) { width: 4px; height: 4px; top: 30%; left: 50%; animation-duration: 4s; }
+.star:nth-child(5) { width: 3px; height: 3px; top: 80%; left: 90%; animation-duration: 5s; }
+.star:nth-child(6) { width: 5px; height: 3px; top: 80%; left: 90%; animation-duration: 5s; }
+.star:nth-child(7) { width: 3px; height: 3px; top: 70%; left: 20%; animation-duration: 8s; }
+.star:nth-child(8) { width: 3px; height: 3px; top: 20%; left: 20%; animation-duration: 10s; }
+.star:nth-child(9) { width: 3px; height: 5px; right: 60%; left: 20%; animation-duration: 8s; }
+.star:nth-child(10) { width: 3px; height: 3px; top: 10%; left: 20%; animation-duration: 8s; }
+
+/* UFO Styles */
+/* UFO Container */
+.alien-container {
+    width: 100%;
+    height: auto;
+    animation: fadeInDown, backOutUp;
+    animation-duration: 0.5s;
+}
+
+/* UFO Image */
+img {
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: auto;
+    margin-top: 5em;
+}
+
+/*Error 404 text*/
+h1 {
+    color: #fff;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Error 404 text animation*/
+.beamed_up {
+    animation: fadeOutUp;
+    animation-delay: 2s;
+    animation-duration: 5s;
+    border: 1px solid red;
+}
+
+/* Main Paragraph Styles*/
+p {
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    margin-top: 2em;
+    font-weight: bold;
+}

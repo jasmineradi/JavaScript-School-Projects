@@ -1,5 +1,7 @@
 These are some JavaScript assignments that I have been working on Spring semester 2026.
 
+---------------------------------------------------------------------------------------
+
 <p>Taskly Task Manager</p>
 
 <p> Key Features: </p>

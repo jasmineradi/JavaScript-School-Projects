@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="script.js" defer></script>
+</head>
+
+    <body>
+
+        <header>
+            <img src="logo.png" alt="logo for taskly task manager" class="logo">
+            <nav>
+                <a href="#" id="focus-session-btn">Home</a></li>                
+            </nav>
+        </header>
+
+        <main>
+            <div class="timer">
+                    <h3 class="boxheader">Ready to Focus?</h3>
+                    <div class="clock-container">
+                        <button id="decrease-btn" class="adjust-btn"><i class="fa-solid fa-minus" style="color: #f87171;"></i></button>
+                            <div class="clockstyle" id="clock"></div>
+                        <button id="increase-btn" class="adjust-btn"><i class="fa-solid fa-plus" style="color: #f87171;"></i></button>
+                    </div>
+
+                <div class="timer-btns">
+                    <button class="timer-btn">Start</button>
+                    <button class="timer-btn" id="pause-btn">Pause</button>
+                    <button class="timer-btn" id="reset-btn">Reset</button>
+                </div>
+            </div>
+            
+
+            <div class="grid-one">
+                <div class="column">
+                    <h3 class="boxheader">This Week</h3>
+                    <div class="week-container" id="week"></div>
+                </div>
+            </div>
+
+            <div class="grid-two">
+                <div class="priority">
+                    <h3 class="boxheader">Main Priority</h3>
+                    <div class="main-priority-text-box">
+                        <p class="prioritybox" id="priority"></p>
+                    </div>
+                </div>
+            
+                <div id="task-list"class="column">
+                    <h3 class="boxheader">To-Do List</h3>
+
+                    <div class="search-container">
+                        <input type="text" id="search-bar" placeholder="Search tasks...">
+                    </div>
+
+                    <div class="form">
+                        <input type="text" class="textbox" id="task-input" placeholder="Enter a Task">
+                        
+                        <select id="category" name="category" class="textbox">
+                          <option value="" disabled selected>Select a Category</option>
+                          <option value="all">All</option>
+                          <option value="personal">Personal</option>
+                          <option value="school">School</option>
+                        </select>
+
+                        <input type="date" class="datebox" id="task-date">
+
+                        <button class="btn" id="add-task-btn">Add Task</button>
+
+                        <div class="todolist" id="tasks"></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="footer-content">
+                <p>Taskly &copy; 2025. All Rights Reserved.  Created by Jasmine Radi             
+                    <a href="https://www.github.com/jasmineradi" target="_blank"><i class="fa-brands fa-github" style="color: #f87171;" ></i></a>
+                    <a href="https://www.linkedin.com/in/jasmineradi" target="_blank"><i class="fa-brands fa-linkedin"  style="color: #f87171;"></i></a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -8,11 +8,23 @@ Thanks for stopping by!
 <br>
 <br>
 
-Word Cloud Generator - Word Cloud
+Word Cloud | Word Cloud Generator
 
 View it Live: Unavailable (Be sure to check out the code!) ❌
 
 <img src="wordcloudpng.png" width="500px" height="auto">
+
+Project status: ✔️ Fully Completed.
+
+<br>
+<br>
+<br>
+
+ECommerce-Sample | E-Commerce Ordering Page
+
+View it Live: Unavailable (Be sure to check out the code!) ❌
+
+<img src="ecommercejs.png" width="500px" height="auto">
 
 Project status: ✔️ Fully Completed.
 

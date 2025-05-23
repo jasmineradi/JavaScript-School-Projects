@@ -8,7 +8,7 @@ Thanks for stopping by!
 <br>
 <br>
 
-Word Cloud Generator - Word Cloud
+Word Cloud | Word Cloud Generator
 
 View it Live: Unavailable (Be sure to check out the code!) ❌
 
@@ -20,7 +20,7 @@ Project status: ✔️ Fully Completed.
 <br>
 <br>
 
-ECommerce Sample - E-Commerce Ordering Page
+ECommerce-Sample | E-Commerce Ordering Page
 
 View it Live: Unavailable (Be sure to check out the code!) ❌
 

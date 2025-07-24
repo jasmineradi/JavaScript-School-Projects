@@ -31,3 +31,11 @@ Project status: ✔️ Fully Completed.
 <br>
 <br>
 <br>
+
+JS05 | Light Box Website
+
+View it Live: Unavailable (Be sure to check out the code!) ❌
+
+<img src="lightboxjs.png" width="500px" height="auto">
+
+Project status: ✔️ Fully Completed.
